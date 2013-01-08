@@ -1,9 +1,9 @@
-@import url("bootstrap-light.css");
+@import url("bootstrap.css");
 /* Generic */
 body, td, pre{
   margin:8px 8px 0 8px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 11px;
   line-height: 20px;
   color: #333333;
   background-color: #ffffff;
@@ -16,16 +16,25 @@ textarea {resize:none;outline:none;}
 /* Forms */
 fieldset {margin:0; padding:4px; border:1px solid #dfdfdf; font-family:Verdana, Arial; font-size:10px;}
 legend {color:#2B6FB6; font-weight:bold;}
+label {
+    display: inline;
+}
 label.msg {display:none;}
 label.invalid {color:#EE0000; display:inline;}
 input.invalid {border:1px solid #EE0000;}
 input {background:#FFF; border:1px solid #dfdfdf;}
 input, select, textarea {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px;}
 input, select, textarea {border:1px solid #dfdfdf;}
+textarea{
+    margin-bottom: 0;
+}
 input.radio {border:1px none #000000; background:transparent; vertical-align:middle;}
 input.checkbox {border:1px none #000000; background:transparent; vertical-align:middle;}
 .input_noborder {border:0;}
-
+input[type="radio"], input[type="checkbox"] {
+    line-height: normal;
+    margin: 0 0 0;
+}
 /* Buttons */
 #insert, #cancel, #apply, .mceActionPanel .button, input.mceButton, .updateButton {
   padding: 4px 12px;
