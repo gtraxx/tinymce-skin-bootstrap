@@ -1,12 +1,17 @@
 tinymce-skin-bootstrap
 ======================
 
-Thème Bootstrap pour tinyMCE
+Thème pour tinyMCE basé sur la CSS de Bootstrap
 
 Authors
 -------
 
  * Gerits Aurelien (Author-Developer) contact[at]aurelien-gerits[point]be
+
+###Installation
+ * Télécharger le skin
+ * Décompresser l'archive
+ * Déposer le dossier bootstrap dans tinyMCE (tiny_mce/themes/advanced/)
 
 
 Exemple d'intégration
