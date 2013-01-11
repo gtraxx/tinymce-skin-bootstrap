@@ -1,10 +1,20 @@
+/* TinyMCE specific rules */
+body.mceContentBody {
+    background: #FFF;
+    margin:8px;
+}
+.mceContentBody a {}
+.mceContentBody p {
+    margin: 0 0 10px;padding:0;line-height:1.4em;
+}
+body.mceForceColors {background:#FFF; color:#000;}
+/* TEMPLATE */
 body, td, pre {
-	color:#000; 
+	color:#000;
 	font: 12px/1.5em "Helvetica Neue", Helvetica, Arial, sans-serif; 
 	margin:8px;
 }
 body { padding: 0 !important;background:#fff !important;}
-body.mceForceColors {background:#FFF; color:#000;}
 h1 {font-size: 2em;}
 h2 {font-size: 1.5em}
 h3 {font-size: 1.17em}
