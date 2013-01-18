@@ -11,7 +11,7 @@ Authors
 
 ###Résultat
 
-![tinyMCE thème bootstrap](http://ternel.net/images/tinymce-bootstrap-theme.png"tinyMCE thème bootstrap")
+![tinyMCE thème bootstrap](http://ternel.net/images/tinymce-bootstrap-theme.png "tinyMCE thème bootstrap")
 
 ###Installation
  * Télécharger le skin
