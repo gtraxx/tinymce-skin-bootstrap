@@ -8,6 +8,11 @@ Authors
 
  * Gerits Aurelien (Author-Developer) contact[at]aurelien-gerits[point]be
 
+
+###Résultat
+
+![tinyMCE thème bootstrap](http://ternel.net/images/tinymce-bootstrap-theme.png "tinyMCE thème bootstrap")
+
 ###Installation
  * Télécharger le skin
  * Décompresser l'archive
