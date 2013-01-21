@@ -12,7 +12,7 @@ Annonce officielle : http://blog.aurelien-gerits.be/2013/01/09/tinymce-skin-twit
 
 ###Résultat
 
-![tinyMCE thème bootstrap](http://ternel.net/images/tinymce-bootstrap-theme.png "tinyMCE thème bootstrap")
+![tinyMCE thème bootstrap](http://blog.aurelien-gerits.be/wp-content/uploads/2013/01/skin-tinymce-bootstrap-2013-1-9.png "tinyMCE thème bootstrap")
 
 ###Installation
  * Télécharger le skin
