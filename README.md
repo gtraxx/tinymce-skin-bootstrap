@@ -8,6 +8,7 @@ Authors
 
  * Gerits Aurelien (Author-Developer) contact[at]aurelien-gerits[point]be
 
+Annonce officielle : http://blog.aurelien-gerits.be/2013/01/09/tinymce-skin-twitter-bootstrap/
 
 ###Résultat
 
