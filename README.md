@@ -1,23 +1,23 @@
 tinymce-skin-bootstrap
 ======================
 
-Thème pour tinyMCE basé sur la CSS de Bootstrap
+A template for tinyMCE based on Twitter Bootstrap
 
 Authors
 -------
 
  * Gerits Aurelien (Author-Developer) contact[at]aurelien-gerits[point]be
 
-Annonce officielle : http://blog.aurelien-gerits.be/2013/01/09/tinymce-skin-twitter-bootstrap/
+Official link in french : http://blog.aurelien-gerits.be/2013/01/09/tinymce-skin-twitter-bootstrap/
 
 ###Résultat
 
 ![tinyMCE thème bootstrap](http://blog.aurelien-gerits.be/wp-content/uploads/2013/01/skin-tinymce-bootstrap-2013-1-9.png "tinyMCE thème bootstrap")
 
 ###Installation
- * Télécharger le skin
- * Décompresser l'archive
- * Déposer le dossier bootstrap dans tinyMCE (tiny_mce/themes/advanced/)
+ * Download skin
+ * Unzip archive
+ * Move folder bootstrap in tinyMCE (tiny_mce/themes/advanced/)
 
 
 Exemple d'intégration
