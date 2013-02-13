@@ -8,30 +8,78 @@ body, td, pre{
   color: #333333;
   background-color: #ffffff;
 }
-body.mceForceColors {background:#FFF; color:#000;}
-td {font-size:10px;}
-textarea {resize:none;outline:none;}
-.nowrap {white-space: nowrap}
+
+body.mceForceColors {
+    margin:8px 8px 0 8px;
+    background:#FFF;
+    color:#000;
+}
+
+td {
+    font-size:10px;
+}
+textarea {
+    resize:none;
+    outline:none;
+}
+.nowrap {
+    white-space: nowrap;
+}
 
 /* Forms */
-fieldset {margin:0; padding:4px; border:1px solid #dfdfdf; font-family:Verdana, Arial; font-size:10px;}
-legend {color:#2B6FB6; font-weight:bold;}
+fieldset {
+    margin:0;
+    padding:4px;
+    border:1px solid #dfdfdf;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:10px;
+}
+legend {
+    color:#2B6FB6;
+    font-weight:bold;
+}
 label {
     display: inline;
 }
-label.msg {display:none;}
-label.invalid {color:#EE0000; display:inline;}
-input.invalid {border:1px solid #EE0000;}
-input {background:#FFF; border:1px solid #dfdfdf;}
-input, select, textarea {font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px;}
-input, select, textarea {border:1px solid #dfdfdf;}
+label.msg {
+    display:none;
+}
+label.invalid {
+    color:#EE0000;
+    display:inline;
+}
+input.invalid {
+    border:1px solid #EE0000;
+}
+input {
+    background:#FFF;
+    border:1px solid #dfdfdf;
+}
+input, select, textarea {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size:10px;
+}
+input, select, textarea {
+    border:1px solid #dfdfdf;
+}
 textarea{
     margin-bottom: 0;
 }
-input.radio {border:1px none #000000; background:transparent; vertical-align:middle;}
-input.checkbox {border:1px none #000000; background:transparent; vertical-align:middle;}
-.input_noborder {border:0;}
-input[type="radio"], input[type="checkbox"] {
+input.radio {
+    border:1px none #000000;
+    background:transparent;
+    vertical-align:middle;
+}
+input.checkbox {
+    border:1px none #000000;
+    background:transparent;
+    vertical-align:middle;
+}
+.input_noborder {
+    border:0;
+}
+input[type="radio"],
+input[type="checkbox"] {
     line-height: normal;
     margin: 0 0 0;
 }
@@ -43,7 +91,6 @@ input[type="radio"], input[type="checkbox"] {
   font-size: 11px;
   width:94px; 
   height:24px;
-  
   text-align: center;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
   vertical-align: middle;
@@ -89,11 +136,14 @@ input[type="radio"], input[type="checkbox"] {
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   *background-color: #0044cc;
   /* Darken IE7 buttons by default so they stand out more given they won't have borders */
-
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
 }
-#cancel:hover, input.mceButton:hover, .updateButton:hover,
-#cancel:focus, input.mceButton:focus, .updateButton:focus {
+#cancel:hover,
+input.mceButton:hover,
+.updateButton:hover,
+#cancel:focus,
+input.mceButton:focus,
+.updateButton:focus {
 	color: #333333;
   background-color: #e6e6e6;
   *background-color: #d9d9d9;
@@ -105,7 +155,7 @@ input[type="radio"], input[type="checkbox"] {
           transition: background-position 0.1s linear;
 }
 #insert:hover,#insert:focus{
-	color: #ffffff;
+  color: #ffffff;
   background-color: #0044cc;
   *background-color: #003bb3;
   text-decoration: none;
@@ -116,24 +166,87 @@ input[type="radio"], input[type="checkbox"] {
           transition: background-position 0.1s linear;
 }
 /* Browse */
-a.browse span {display:block; width:20px; height:18px; background:url(../../img/icons.gif) -860px 0; border:1px solid #FFF; margin-left:1px;}
-.mceOldBoxModel a.browse span {width:22px; height:20px;}
-a.browse:hover span {border:1px solid #0A246A; background-color:#B2BBD0;}
-a.browse span.disabled {border:1px solid white; -moz-opacity:0.3; opacity:0.3; filter:progid:DXImageTransform.Microsoft.Alpha(opacity=30);}
-a.browse:hover span.disabled {border:1px solid white; background-color:transparent;}
-a.pickcolor span {display:block; width:20px; height:16px; background:url(../../img/icons.gif) -840px 0; margin-left:2px;}
-.mceOldBoxModel a.pickcolor span {width:21px; height:17px;}
-a.pickcolor:hover span {background-color:#B2BBD0;}
-a.pickcolor, a.browse {text-decoration:none}
+a.browse span {
+    display:block;
+    width:20px;
+    height:18px;
+    background:url(../../img/icons.gif) -860px 0;
+    border:1px solid #FFF;
+    margin-left:1px;
+}
+.mceOldBoxModel a.browse span {
+    width:22px;
+    height:20px;
+}
+a.browse:hover span {
+    border:1px solid #0A246A;
+    background-color:#B2BBD0;
+}
+a.browse span.disabled {
+    border:1px solid white; -moz-opacity:0.3; opacity:0.3;
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=30);
+}
+a.browse:hover span.disabled {
+    border:1px solid white;
+    background-color:transparent;
+}
+a.pickcolor span {
+    display:block;
+    width:20px;
+    height:16px;
+    background:url(../../img/icons.gif) -840px 0;
+    margin-left:2px;
+}
+.mceOldBoxModel a.pickcolor span {
+    width:21px;
+    height:17px;
+}
+a.pickcolor:hover span {
+    background-color:#B2BBD0;
+}
+a.pickcolor, a.browse {
+    text-decoration:none;
+}
 
 /* Charmap */
-table.charmap {border:1px solid #AAA; text-align:center}
-td.charmap, #charmap a {width:18px; height:18px; color:#000; border:1px solid #AAA; text-align:center; font-size:12px; vertical-align:middle; line-height: 18px;}
-#charmap a {display:block; color:#000; text-decoration:none; border:0}
-#charmap a:hover {background:#CCC;color:#2B6FB6}
-#charmap #codeN {font-size:10px; font-family:Arial,Helvetica,sans-serif; text-align:center}
-#charmap #codeV {font-size:40px; height:80px; border:1px solid #AAA; text-align:center}
-#charmap #charmapView {background-color:#fff;}
+table.charmap {
+    border:1px solid #AAA;
+    text-align:center;
+}
+td.charmap, #charmap a {
+    width:18px;
+    height:18px;
+    color:#000;
+    border:1px solid #AAA;
+    text-align:center;
+    font-size:12px;
+    vertical-align:middle;
+    line-height: 18px;
+}
+#charmap a {
+    display:block;
+    color:#000;
+    text-decoration:none;
+    border:0;
+}
+#charmap a:hover {
+    background:#CCC;
+    color:#2B6FB6;
+}
+#charmap #codeN {
+    font-size:10px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align:center;
+}
+#charmap #codeV {
+    font-size:40px;
+    height:80px;
+    border:1px solid #AAA;
+    text-align:center;
+}
+#charmap #charmapView {
+    background-color:#fff;
+}
 
 /* Source */
 .wordWrapCode {vertical-align:middle; border:1px none #000000; background:transparent;}

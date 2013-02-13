@@ -2,31 +2,44 @@
     width:700px;
 }
 /* Reset */
-.bootstrapSkin table, .bootstrapSkin tbody, .bootstrapSkin a, .bootstrapSkin img, .bootstrapSkin tr, .bootstrapSkin div, .bootstrapSkin td, .bootstrapSkin iframe, .bootstrapSkin span, .bootstrapSkin *, .bootstrapSkin .mceText {
-	border: 0;
-	margin: 0;
-	padding: 0;
-	background: transparent;
-	white-space: nowrap;
-	text-decoration: none;
-	font-weight: normal;
-	cursor: default;
-	color: #000;
-	vertical-align: baseline;
-	width: auto;
-	border-collapse: separate;
-	text-align: left
+.bootstrapSkin table,
+.bootstrapSkin tbody,
+.bootstrapSkin a,
+.bootstrapSkin img,
+.bootstrapSkin tr,
+.bootstrapSkin div,
+.bootstrapSkin td,
+.bootstrapSkin iframe,
+.bootstrapSkin span,
+.bootstrapSkin *,
+.bootstrapSkin .mceText {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    white-space: nowrap;
+    text-decoration: none;
+    font-weight: normal;
+    cursor: default;
+    color: #000;
+    vertical-align: baseline;
+    width: auto;
+    border-collapse: separate;
+    text-align: left
 }
 
-.bootstrapSkin a:hover, .bootstrapSkin a:link, .bootstrapSkin a:visited, .bootstrapSkin a:active {
-	text-decoration: none;
-	font-weight: normal;
-	cursor: default;
-	color: #000
+.bootstrapSkin a:hover,
+.bootstrapSkin a:link,
+.bootstrapSkin a:visited,
+.bootstrapSkin a:active {
+    text-decoration: none;
+    font-weight: normal;
+    cursor: default;
+    color: #000
 }
 
 .bootstrapSkin table td {
-	vertical-align: middle
+    vertical-align: middle
 }
 
 /* Containers */
@@ -102,7 +115,9 @@
           box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
 }
 
-.bootstrapSkin table.mceToolbar, .bootstrapSkin tr.mceFirst .mceToolbar tr td, .bootstrapSkin tr.mceLast .mceToolbar tr td {
+.bootstrapSkin table.mceToolbar,
+.bootstrapSkin tr.mceFirst .mceToolbar tr td,
+.bootstrapSkin tr.mceLast .mceToolbar tr td {
 	border: 0;
 	margin: 0;
 	padding: 0;
@@ -134,7 +149,7 @@
 }
 
 .bootstrapSkin .mceStatusbar {
-	font-family: 'MS Sans Serif', sans-serif, Verdana, Arial;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 9pt;
 	line-height: 16px;
 	overflow: visible;
@@ -168,7 +183,8 @@
 	margin-left: 3px
 }
 
-.bootstrapSkin span.mceIcon, .bootstrapSkin img.mceIcon {
+.bootstrapSkin span.mceIcon,
+.bootstrapSkin img.mceIcon {
 	display: block;
 	width: 20px;
 	height: 20px;
@@ -198,14 +214,14 @@
 }
 /* Button */
 .bootstrapSkin .mceButton {
-	/*tinymce bootstrap*/
-	cursor: default;
-	display: block;
-	height: 20px;
-	margin: 1px;
-	padding: 1px 2px;
-	width: 20px;
-	background-color: #f5f5f5;
+    /*tinymce bootstrap*/
+    cursor: default;
+    display: block;
+    height: 20px;
+    margin: 1px;
+    padding: 1px 2px;
+    width: 20px;
+    background-color: #f5f5f5;
     *background-color: #e6e6e6;
     background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
     background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
@@ -216,33 +232,34 @@
     border: 1px solid #bbbbbb;
     *border: 0;
     border-color: #e6e6e6 #e6e6e6 #bfbfbf;
-    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
     border-bottom-color: #a2a2a2;
     -webkit-border-radius: 3px;
-     -moz-border-radius: 3px;
-          border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0);
     filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
     *zoom: 1;
     -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
     -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
-          box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
 .bootstrapSkin a.mceButtonEnabled:hover {
-	/*tinymce bootstrap*/
-  color: #333333;
-  background-color: #e6e6e6;
-  *background-color: #d9d9d9;
-  text-decoration: none;
-  background-position: 0 -15px;
-  -webkit-transition: background-position 0.1s linear;
-     -moz-transition: background-position 0.1s linear;
-       -o-transition: background-position 0.1s linear;
-          transition: background-position 0.1s linear;
+    /*tinymce bootstrap*/
+    color: #333333;
+    background-color: #e6e6e6;
+    *background-color: #d9d9d9;
+    text-decoration: none;
+    background-position: 0 -15px;
+    -webkit-transition: background-position 0.1s linear;
+    -moz-transition: background-position 0.1s linear;
+    -o-transition: background-position 0.1s linear;
+    transition: background-position 0.1s linear;
 }
 
-.bootstrapSkin a.mceButtonActive, .bootstrapSkin a.mceButtonSelected {
+.bootstrapSkin a.mceButtonActive,
+.bootstrapSkin a.mceButtonSelected {
 	/*tinymce bootstrap*/
 	background-color: #cccccc \9;
 }
@@ -250,7 +267,7 @@
 .bootstrapSkin .mceButtonDisabled .mceIcon {
 	/*tinymce bootstrap*/
 	cursor: default;
- opacity: 0.3;
+    opacity: 0.3;
 	-ms-filter: 'alpha(opacity=30)';
 	filter: alpha(opacity = 30);
   -webkit-box-shadow: none;
@@ -270,7 +287,7 @@
 	display: block;
 	font-size: 10px;
 	padding: 4px 6px 0 22px;
-	font-family: Tahoma, Verdana, Arial, Helvetica;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .bootstrapSkin .mceButtonDisabled .mceButtonLabel {
@@ -293,7 +310,8 @@
 	margin: 1px;
 }
 
-.bootstrapSkin .mceListBox, .bootstrapSkin .mceListBox a {
+.bootstrapSkin .mceListBox,
+.bootstrapSkin .mceListBox a {
 	display: block
 }
 
@@ -304,51 +322,61 @@
 	text-decoration: none !important;
 	width: 70px;
 	height: 20px;
-	font-family: Tahoma, Verdana, Arial, Helvetica;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 11px;
 	line-height: 20px;
 	overflow: hidden;
 }
 
-.bootstrapSkin .mceListBox .mceText, .bootstrapSkin .mceListBox .mceOpen {
-	/*tinymce bootstrap*/
-	color: #333333;
-  background-color: #f5f5f5;
-  *background-color: #e6e6e6;
-  background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
-  background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
-  background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
-  background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
-  background-repeat: repeat-x;
-  border: 1px solid #bbbbbb;
-  *border: 0;
-  border-color: #e6e6e6 #e6e6e6 #bfbfbf;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  border-bottom-color: #a2a2a2;
+.bootstrapSkin .mceListBox .mceText,
+.bootstrapSkin .mceListBox .mceOpen {
+    /*tinymce bootstrap*/
+    color: #333333;
+    background-color: #f5f5f5;
+    *background-color: #e6e6e6;
+    background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+    background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+    background-image: linear-gradient(to bottom, #ffffff, #e6e6e6);
+    background-repeat: repeat-x;
+    border: 1px solid #bbbbbb;
+    *border: 0;
+    border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    border-bottom-color: #a2a2a2;
 }
 
-.bootstrapSkin table.mceListBoxEnabled:hover .mceOpen, .bootstrapSkin .mceListBoxHover .mceOpen, .bootstrapSkin .mceListBoxSelected .mceOpen, .bootstrapSkin .mceListBoxSelected .mceText {
-	/*tinymce bootstrap*/
-	color: #333333;
-  background-color: #e6e6e6;
-  *background-color: #d9d9d9;
-  text-decoration: none;
-  background-position: 0 -15px;
-  -webkit-transition: background-position 0.1s linear;
-     -moz-transition: background-position 0.1s linear;
-       -o-transition: background-position 0.1s linear;
-          transition: background-position 0.1s linear;
+.bootstrapSkin table.mceListBoxEnabled:hover .mceOpen,
+.bootstrapSkin .mceListBoxHover .mceOpen,
+.bootstrapSkin .mceListBoxSelected .mceOpen,
+.bootstrapSkin .mceListBoxSelected .mceText {
+    /*tinymce bootstrap*/
+    color: #333333;
+    background-color: #e6e6e6;
+    *background-color: #d9d9d9;
+    text-decoration: none;
+    background-position: 0 -15px;
+    -webkit-transition: background-position 0.1s linear;
+    -moz-transition: background-position 0.1s linear;
+    -o-transition: background-position 0.1s linear;
+    transition: background-position 0.1s linear;
 }
 
-.bootstrapSkin table.mceListBoxEnabled:hover .mceText, .bootstrapSkin .mceListBoxHover .mceText {
-	/*tinymce bootstrap*/
-	border-color: #e6e6e6 #e6e6e6 #bfbfbf;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
-  border-bottom-color: #a2a2a2;
+.bootstrapSkin table.mceListBoxEnabled:hover .mceText,
+.bootstrapSkin .mceListBoxHover .mceText {
+    /*tinymce bootstrap*/
+    border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    border-bottom-color: #a2a2a2;
 }
 
-.bootstrapSkin table.mceListBoxEnabled:hover .mceText, .bootstrapSkin .mceListBoxHover .mceText, .bootstrapSkin .mceListBoxSelected .mceText, .bootstrapSkin table.mceListBoxEnabled:hover .mceOpen, .bootstrapSkin .mceListBoxHover .mceOpen, .bootstrapSkin .mceListBoxSelected .mceOpen {
+.bootstrapSkin table.mceListBoxEnabled:hover .mceText,
+.bootstrapSkin .mceListBoxHover .mceText,
+.bootstrapSkin .mceListBoxSelected .mceText,
+.bootstrapSkin table.mceListBoxEnabled:hover .mceOpen,
+.bootstrapSkin .mceListBoxHover .mceOpen,
+.bootstrapSkin .mceListBoxSelected .mceOpen {
 	background-image: none;
 }
 
@@ -410,7 +438,8 @@
 	direction: ltr
 }
 
-.bootstrapSkin .mceSplitButton a, .bootstrapSkin .mceSplitButton span {
+.bootstrapSkin .mceSplitButton a,
+.bootstrapSkin .mceSplitButton span {
 	height: 20px;
 }
 
@@ -441,7 +470,8 @@
 	border-left: 0 none !important;
 }
 
-.bootstrapSkin .mceSplitButtonDisabled .mceAction, .bootstrapSkin .mceSplitButtonDisabled span.mceOpen {
+.bootstrapSkin .mceSplitButtonDisabled .mceAction,
+.bootstrapSkin .mceSplitButtonDisabled span.mceOpen {
 	opacity: 0.3;
 	filter: alpha(opacity = 30);
 }
@@ -463,14 +493,16 @@
 	background-repeat: repeat-x;
 }
 
-.bootstrapSkin .mceSplitButton a.mceAction, .bootstrapSkin .mceSplitButton a.mceOpen {
+.bootstrapSkin .mceSplitButton a.mceAction,
+.bootstrapSkin .mceSplitButton a.mceOpen {
 	/*tinymce bootstrap*/
 	border-color: #e6e6e6 #e6e6e6 #bfbfbf;
   border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
   border-bottom-color: #a2a2a2;
 }
 
-.bootstrapSkin .mceListBox a.mceText, .bootstrapSkin .mceSplitButton a.mceAction {
+.bootstrapSkin .mceListBox a.mceText,
+.bootstrapSkin .mceSplitButton a.mceAction {
 	-moz-border-radius-bottomleft: 3px;
 	-webkit-border-bottom-left-radius: 3px;
 	-khtml-border-bottom-left-radius: 3px;
@@ -481,7 +513,8 @@
 	border-top-left-radius: 3px;
 }
 
-.bootstrapSkin .mceSplitButton a.mceOpen, .bootstrapSkin .mceListBox a.mceOpen {
+.bootstrapSkin .mceSplitButton a.mceOpen,
+.bootstrapSkin .mceListBox a.mceOpen {
 	-moz-border-radius-bottomright: 3px;
 	-webkit-border-bottom-right-radius: 3px;
 	-khtml-border-bottom-right-radius: 3px;
@@ -492,7 +525,10 @@
 	border-top-right-radius: 3px;
 }
 
-.bootstrapSkin .mceSplitButton a.mceOpen:hover, .bootstrapSkin .mceSplitButtonSelected a.mceOpen, .bootstrapSkin table.mceSplitButtonEnabled:hover a.mceAction, .bootstrapSkin .mceSplitButton a.mceAction:hover {
+.bootstrapSkin .mceSplitButton a.mceOpen:hover,
+.bootstrapSkin .mceSplitButtonSelected a.mceOpen,
+.bootstrapSkin table.mceSplitButtonEnabled:hover a.mceAction,
+.bootstrapSkin .mceSplitButton a.mceAction:hover {
   /*tinymce bootstrap*/
   color: #333333;
   background-color: #e6e6e6;
@@ -551,7 +587,8 @@
 	background: #9a9b9a
 }
 
-.bootstrapSkin .mce_forecolor span.mceAction, .bootstrapSkin .mce_backcolor span.mceAction {
+.bootstrapSkin .mce_forecolor span.mceAction,
+.bootstrapSkin .mce_backcolor span.mceAction {
 	overflow: hidden;
 	height: 16px
 }
@@ -577,7 +614,9 @@
 	background: #FFF
 }
 
-.bootstrapSkin .mceMenu a, .bootstrapSkin .mceMenu span, .bootstrapSkin .mceMenu {
+.bootstrapSkin .mceMenu a,
+.bootstrapSkin .mceMenu span,
+.bootstrapSkin .mceMenu {
 	display: block
 }
 
@@ -591,18 +630,19 @@
 }
 
 .bootstrapSkin .mceMenu .mceText {
-	position: relative;
-	display: block;
-	font-family: 'Lucida Grande', Helvetica, Arial, sans-serif;
-	color: #000;
-	cursor: default;
-	margin: 0;
-	padding: 0 25px 0 25px;
-	display: block
+    position: relative;
+    display: block;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #000;
+    cursor: default;
+    margin: 0;
+    padding: 0 25px 0 25px;
+    display: block;
 }
 
-.bootstrapSkin .mceMenu span.mceText, .bootstrapSkin .mceMenu .mcePreview {
-	font-size: 11px
+.bootstrapSkin .mceMenu span.mceText,
+.bootstrapSkin .mceMenu .mcePreview {
+	font-size: 11px;
 }
 
 .bootstrapSkin .mceMenu pre.mceText {
@@ -616,8 +656,9 @@
 	width: 22px;
 }
 
-.bootstrapSkin .mceMenu .mceMenuItemEnabled a:hover, .bootstrapSkin .mceMenu .mceMenuItemActive {
-	background-color: #dbecf3
+.bootstrapSkin .mceMenu .mceMenuItemEnabled a:hover,
+.bootstrapSkin .mceMenu .mceMenuItemActive {
+	background-color: #dbecf3;
 }
 
 .bootstrapSkin td.mceMenuItemSeparator {
@@ -731,9 +772,34 @@
 }
 
 /* border */
-.bootstrapSkin .mceExternalToolbar, .bootstrapSkin .mceButton, .bootstrapSkin a.mceButtonEnabled:hover, .bootstrapSkin a.mceButtonActive, .bootstrapSkin a.mceButtonSelected, .bootstrapSkin .mceListBox .mceText, .bootstrapSkin .mceListBox .mceOpen, .bootstrapSkin table.mceListBoxEnabled:hover .mceText, .bootstrapSkin .mceListBoxHover .mceText, .bootstrapSkin .mceListBoxSelected .mceText, .bootstrapSkin table.mceListBoxEnabled:hover .mceOpen, .bootstrapSkin .mceListBoxHover .mceOpen, .bootstrapSkin .mceListBoxSelected .mceOpen, .bootstrapSkin select.mceListBox, .bootstrapSkin .mceSplitButton a.mceAction, .bootstrapSkin .mceSplitButton a.mceOpen, .bootstrapSkin .mceSplitButton a.mceOpen:hover, .bootstrapSkin .mceSplitButtonSelected a.mceOpen, .bootstrapSkin table.mceSplitButtonEnabled:hover a.mceAction, .bootstrapSkin .mceSplitButton a.mceAction:hover, .bootstrapSkin div.mceColorSplitMenu table, .bootstrapSkin .mceColorSplitMenu a, .bootstrapSkin .mceColorSplitMenu a.mceMoreColors, .bootstrapSkin .mceColorSplitMenu a.mceMoreColors:hover, .bootstrapSkin a.mceMoreColors:hover, .bootstrapSkin .mceMenu {
-	border-style: solid;
-	border-width: 1px;
+.bootstrapSkin .mceExternalToolbar,
+.bootstrapSkin .mceButton,
+.bootstrapSkin a.mceButtonEnabled:hover,
+.bootstrapSkin a.mceButtonActive,
+.bootstrapSkin a.mceButtonSelected,
+.bootstrapSkin .mceListBox .mceText,
+.bootstrapSkin .mceListBox .mceOpen,
+.bootstrapSkin table.mceListBoxEnabled:hover .mceText,
+.bootstrapSkin .mceListBoxHover .mceText,
+.bootstrapSkin .mceListBoxSelected .mceText,
+.bootstrapSkin table.mceListBoxEnabled:hover .mceOpen,
+.bootstrapSkin .mceListBoxHover .mceOpen,
+.bootstrapSkin .mceListBoxSelected .mceOpen,
+.bootstrapSkin select.mceListBox,
+.bootstrapSkin .mceSplitButton a.mceAction,
+.bootstrapSkin .mceSplitButton a.mceOpen,
+.bootstrapSkin .mceSplitButton a.mceOpen:hover,
+.bootstrapSkin .mceSplitButtonSelected a.mceOpen,
+.bootstrapSkin table.mceSplitButtonEnabled:hover a.mceAction,
+.bootstrapSkin .mceSplitButton a.mceAction:hover,
+.bootstrapSkin div.mceColorSplitMenu table,
+.bootstrapSkin .mceColorSplitMenu a,
+.bootstrapSkin .mceColorSplitMenu a.mceMoreColors,
+.bootstrapSkin .mceColorSplitMenu a.mceMoreColors:hover,
+.bootstrapSkin a.mceMoreColors:hover,
+.bootstrapSkin .mceMenu {
+    border-style: solid;
+    border-width: 1px;
 }
 
 /* Theme */
