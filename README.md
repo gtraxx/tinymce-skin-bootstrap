@@ -17,7 +17,7 @@ Official link in french : http://blog.aurelien-gerits.be/2013/01/09/tinymce-skin
 ###Installation
  * Download skin
  * Unzip archive
- * Move folder bootstrap in tinyMCE (tiny_mce/themes/advanced/)
+ * Move folder bootstrap in tinyMCE (tiny_mce/themes/advanced/skin/)
 
 
 Exemple d'intégration
