@@ -25,7 +25,7 @@
     vertical-align: baseline;
     width: auto;
     border-collapse: separate;
-    text-align: left
+    text-align: left;
 }
 
 .bootstrapSkin a:hover,
@@ -138,8 +138,9 @@
     -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
      -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
           box-shadow: 0 1px 4px rgba(0, 0, 0, 0.065);
-    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffffff', endColorstr='#f2f2f2');/*For IE7-8-9*/ 
-	height: 1%;/*For IE7*/ 
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffffff', endColorstr='#f2f2f2');/*For IE7-8-9*/
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    height: 1%;/*For IE7*/
 }
 
 .bootstrapSkin .mceIframeContainer {
@@ -401,7 +402,8 @@
 }
 
 .bootstrapSkin select.mceNativeListBox {
-	font: 11px 'Lucida Grande', Helvetica, Arial, sans-serif;
+    font-size:11px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	background: #F0F0EE;
 	border: 1px solid gray;
 	margin-right: 2px;

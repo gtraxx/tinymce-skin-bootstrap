@@ -9,6 +9,7 @@ body.mceContentBody {
     padding:0;
     line-height:1.4em;
 }
+
 body.mceForceColors {
     background:#FFF;
     color:#000;
@@ -19,16 +20,36 @@ body, td, pre {
 	font: 12px/1.5em "Helvetica Neue", Helvetica, Arial, sans-serif; 
 	margin:8px;
 }
+
 body {
     padding: 0 !important;
     background:#fff !important;
 }
-h1 {font-size: 2em;}
-h2 {font-size: 1.5em}
-h3 {font-size: 1.17em}
-h4 {font-size: 1em}
-h5 {font-size: .83em}
-h6 {font-size: .75em}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.17em;
+}
+
+h4 {
+    font-size: 1em;
+}
+
+h5 {
+    font-size: .83em;
+}
+
+h6 {
+    font-size: .75em;
+}
+
 h1,
 h2,
 h3 {
