@@ -10,7 +10,7 @@ Authors
 
 Official link in french : http://blog.aurelien-gerits.be/2013/01/09/tinymce-skin-twitter-bootstrap/
 
-###Résultat
+###Screenshot
 
 ![tinyMCE thème bootstrap](http://blog.aurelien-gerits.be/wp-content/uploads/2013/01/skin-tinymce-bootstrap-2013-1-9.png "tinyMCE thème bootstrap")
 
@@ -20,7 +20,7 @@ Official link in french : http://blog.aurelien-gerits.be/2013/01/09/tinymce-skin
  * Move folder bootstrap in tinyMCE (tiny_mce/themes/advanced/skin/)
 
 
-Exemple d'intégration
+Example
 ---------------------
 <pre>
 tinyMCE.init({
@@ -44,6 +44,9 @@ tinyMCE.init({
         content_css : "/js/tinymce/examples/css/content.css"
 });
 </pre>
+
+####Demo
+Coming soon
 
 Licence
 ------------
